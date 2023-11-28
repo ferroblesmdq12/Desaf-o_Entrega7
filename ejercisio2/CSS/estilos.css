@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#tituloPrincipal{
+
+}
+
+.animacion{
+    width: 950px;
+    height: 100px;
+    background-color: gold;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    display: inline-block;
+    margin-left: 20px;
+    animation: moverTexto 2s ease-in-out forwards;
+}
+
+@keyframes moverTexto {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
